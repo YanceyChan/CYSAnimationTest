@@ -224,14 +224,14 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="icy-Oh-B7P"/>
                                         <exclude reference="aDu-Y1-qkg"/>
+                                        <exclude reference="icy-Oh-B7P"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="icy-Oh-B7P"/>
                                         <include reference="aDu-Y1-qkg"/>
+                                        <include reference="icy-Oh-B7P"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -278,6 +278,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DQO-ec-nUL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iH7-eO-xW3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-snowy" translatesAutoresizingMaskIntoConstraints="NO" id="6Xc-1Q-FNO">
@@ -321,16 +322,19 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Yrd-NH-kLq"/>
                                         <exclude reference="Py6-d0-oZT"/>
+                                        <exclude reference="Yrd-NH-kLq"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="Yrd-NH-kLq"/>
                                         <include reference="Py6-d0-oZT"/>
+                                        <include reference="Yrd-NH-kLq"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <segue destination="JJL-fs-kxN" kind="push" id="eDL-UA-oIE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -347,9 +351,9 @@
                                 <exclude reference="FRg-JO-Zd8"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Huo-EX-hza"/>
                                 <exclude reference="Lya-kv-7uv"/>
                                 <exclude reference="ifL-aJ-qia"/>
-                                <exclude reference="Huo-EX-hza"/>
                                 <exclude reference="4uU-y8-eo4"/>
                             </mask>
                         </variation>
@@ -360,9 +364,9 @@
                                 <include reference="FRg-JO-Zd8"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Huo-EX-hza"/>
                                 <include reference="Lya-kv-7uv"/>
                                 <include reference="ifL-aJ-qia"/>
-                                <include reference="Huo-EX-hza"/>
                                 <include reference="4uU-y8-eo4"/>
                             </mask>
                         </variation>
@@ -377,8 +381,49 @@
             </objects>
             <point key="canvasLocation" x="1941" y="222.75"/>
         </scene>
+        <!--View Controller4-->
+        <scene sceneID="byZ-sC-hbl">
+            <objects>
+                <viewController id="JJL-fs-kxN" customClass="ViewController4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xUf-or-ZCa"/>
+                        <viewControllerLayoutGuide type="bottom" id="JFb-m8-CDG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CrV-sw-LXB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane" translatesAutoresizingMaskIntoConstraints="NO" id="IgC-wY-Pqe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="313" width="82" height="39"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="IgC-wY-Pqe"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="IgC-wY-Pqe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="bQ5-cM-PzL"/>
+                    <connections>
+                        <outlet property="myPlaneView" destination="IgC-wY-Pqe" id="dxd-Yu-qO8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rkd-HF-hc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634" y="222.75"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg-snowy" width="320" height="568"/>
+        <image name="plane" width="85" height="36"/>
     </resources>
 </document>

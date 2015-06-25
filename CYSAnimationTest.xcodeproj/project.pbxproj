@@ -16,6 +16,7 @@
 		C1415AE21B29251700661600 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1415AE01B29251700661600 /* LaunchScreen.xib */; };
 		C1415AEE1B29251700661600 /* CYSAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1415AED1B29251700661600 /* CYSAnimationTestTests.m */; };
 		C155B3821B3017D900BB127F /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C155B3811B3017D900BB127F /* ViewController3.m */; };
+		C1B417F31B32AA8700998A12 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B417F21B32AA8700998A12 /* ViewController4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		C1415AED1B29251700661600 /* CYSAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSAnimationTestTests.m; sourceTree = "<group>"; };
 		C155B3801B3017D900BB127F /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		C155B3811B3017D900BB127F /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		C1B417F11B32AA8700998A12 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		C1B417F21B32AA8700998A12 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				C155B3801B3017D900BB127F /* ViewController3.h */,
 				C155B3811B3017D900BB127F /* ViewController3.m */,
 				C1415ADB1B29251700661600 /* Main.storyboard */,
+				C1B417F11B32AA8700998A12 /* ViewController4.h */,
+				C1B417F21B32AA8700998A12 /* ViewController4.m */,
 				C1415ADE1B29251700661600 /* Images.xcassets */,
 				C1415AE01B29251700661600 /* LaunchScreen.xib */,
 				C1415AD11B29251700661600 /* Supporting Files */,
@@ -234,6 +239,7 @@
 				C1415AD71B29251700661600 /* AppDelegate.m in Sources */,
 				C1415AD41B29251700661600 /* main.m in Sources */,
 				C155B3821B3017D900BB127F /* ViewController3.m in Sources */,
+				C1B417F31B32AA8700998A12 /* ViewController4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

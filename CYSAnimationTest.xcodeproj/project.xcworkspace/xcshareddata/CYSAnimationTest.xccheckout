@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EAF79F8F-FA4F-49C3-BC0D-6B18AD9DF2FD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</key>
+		<string>https://github.com/YanceyChan/CYSAnimationTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CYSAnimationTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YanceyChan/CYSAnimationTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CYSAnimationTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
