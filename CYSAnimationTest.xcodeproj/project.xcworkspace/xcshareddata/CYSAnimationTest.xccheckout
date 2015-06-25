@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EAF79F8F-FA4F-49C3-BC0D-6B18AD9DF2FD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>CYSAnimationTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</key>
 		<string>https://github.com/YanceyChan/CYSAnimationTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CYSAnimationTest.xcodeproj/project.xcworkspace</string>
+	<string>CYSAnimationTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F5CED52B07E57976AE2E0EE7512EF88F42B1303D</key>

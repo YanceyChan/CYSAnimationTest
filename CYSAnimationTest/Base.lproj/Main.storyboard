@@ -395,20 +395,49 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane" translatesAutoresizingMaskIntoConstraints="NO" id="IgC-wY-Pqe">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="139" y="313" width="82" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="WvF-3z-RGw"/>
+                                    <constraint firstAttribute="width" constant="82" id="Xql-mK-KRv"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WvF-3z-RGw"/>
+                                        <exclude reference="Xql-mK-KRv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="WvF-3z-RGw"/>
+                                        <include reference="Xql-mK-KRv"/>
+                                    </mask>
                                 </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IgC-wY-Pqe" firstAttribute="leading" secondItem="CrV-sw-LXB" secondAttribute="leadingMargin" constant="42" id="GOo-Ik-nXq">
+                                <variation key="heightClass=regular-widthClass=compact" constant="131"/>
+                            </constraint>
+                            <constraint firstItem="IgC-wY-Pqe" firstAttribute="top" secondItem="xUf-or-ZCa" secondAttribute="bottom" constant="247" id="Lzm-jI-uzt">
+                                <variation key="heightClass=regular-widthClass=compact" constant="424"/>
+                            </constraint>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="IgC-wY-Pqe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="GOo-Ik-nXq"/>
+                                <exclude reference="Lzm-jI-uzt"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="IgC-wY-Pqe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="GOo-Ik-nXq"/>
+                                <include reference="Lzm-jI-uzt"/>
                             </mask>
                         </variation>
                     </view>
